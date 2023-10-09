@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Young+Serif&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Roboto+Condensed:ital,wght@1,300&family=Young+Serif&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Pixelify+Sans&family=Roboto+Condensed:ital,wght@1,300&family=Young+Serif&display=swap');
+*{
+    padding: 0;
+    margin: 1px;
+}
+
+.container {
+    background-color: rgb(227, 207, 245);
+    border: solid rgb(161, 42, 165);
+    height: 2vh;
+    margin: 15px;
+    padding: 10px;
+    display: block;
+}
+
+#sidelinks {
+    float: right;
+    background-color: rgb(238, 196, 255);
+
+}
+
+.name {
+    float: left;
+}
+
+.banner{text-align: center;}
+
+.links{
+    font-family: 'Young Serif', serif;
+    width: 10vw;
+    border: solid rgb(165, 42, 165);
+    background-color: rgb(241, 220, 245);
+    float:left;
+}
+
+.link a{
+    text-decoration: none;
+    display: block;
+}
+
+.maincontent {
+    display: inline-block;
+    height: 85vh;
+    width: 70vw;
+    border: solid rgb(14, 0, 32);
+    background-color: rgb(255, 180, 249);
+    text-align: justify;
+    text-align: left;
+}
+
+.maincontent p{font-family: 'Roboto Condensed', sans-serif;
+font-size: smaller;}
+
+.maincontent h1{
+    text-align: center;
+    font-family: 'Young Serif', serif;
+}
+
+.maincontent h1 span {
+    color: rgb(168, 99, 163);
+    font-family: 'Young Serif', serif;
+}
+
+.image {
+    text-align: center;
+}
+
+.right {
+    font-family: 'Oswald', sans-serif;
+    width: 10vw;
+    height: 25vh;
+    border: solid rgb(165, 42, 114);
+    background-color: rgb(239, 220, 245);
+    float: right;
+}
+
